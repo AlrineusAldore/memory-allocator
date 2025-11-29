@@ -7,7 +7,7 @@
 
 
 int main() {
-    printf("hello world: %lu\n", sizeof(intptr_t));
+    printf("hello world: %lu\n", sizeof(bool));
 
 
     int* arr1 = my_malloc(sizeof(int) * SIZE1);
